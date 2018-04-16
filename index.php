@@ -12,11 +12,11 @@
 	<div class="header"> </div>
 	<div class="time">
 		<p>
-			<script type="text/javascript">
-				var time = new Date();
-			document.write(time);
 
-			</script>
+			<?php
+			date_default_timezone_set("Africa/Lagos")
+			echo date("h:i:sa")
+			 ?>
 
 		</p>
 	</div>
