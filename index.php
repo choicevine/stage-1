@@ -13,6 +13,11 @@
 	<div class="time">
 		<p>
 
+			<?php
+			date_default_timezone_set("Africa/Lagos");
+			echo date("h:i:sa");
+			 ?>
+
 		</p>
 	</div>
   	
